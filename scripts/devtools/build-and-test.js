@@ -105,7 +105,6 @@ async function buildAndTestStandalonePackage() {
       estimate: 25000,
     }
   );
-
   const standalonePackagePath = join(ROOT_PATH, 'packages', 'react-devtools');
   const safariFixturePath = join(
     ROOT_PATH,
