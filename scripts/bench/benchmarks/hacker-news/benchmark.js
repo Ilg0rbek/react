@@ -19,7 +19,6 @@
       .replace('http://', '')
       .split('/')[0];
   }
-
   function HeaderBar() {
     return e(
       'tr',
